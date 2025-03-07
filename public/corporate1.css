@@ -1,0 +1,277 @@
+@font-face {
+  font-family: 'Absolute Beauty';
+  src: url('Absolute-Beauty-Script-Regular.otf') format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family:'LibreBaskerville-Regular';
+  src: url('LibreBaskerville-Regular.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family:'theseasons';
+  src: url('Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+  font-style: normal;
+}
+body {
+  font-family:'LibreBaskerville-Regular';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:  #6c7d5a;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Fraunces', serif;
+  color: white;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-brand img {
+  height: 100px;
+  margin-top:-40px;
+}
+
+.nav-link {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2rem;
+  color: #fff !important;
+  margin: 0 15px;
+}
+.container {
+  text-align: center;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("corporate\ main.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+.blank {
+  width: 100%;
+  min-height: 40vh;
+  background-image: url("wed.jpg");
+  background-size: cover;
+}
+/* ------------------------------------------ */
+
+  
+.container1 {
+  display:flex;
+  flex-wrap:wrap;
+  padding-left:80px;
+   padding : 50px;
+   justify-content: center;
+  
+ }
+ 
+ .container1 .card {
+   position: relative;
+   max-width : 350px;
+   height : 280px;  
+   background-color : #fff;
+   margin : 30px 10px;
+   padding : 20px 15px ;
+   display : flex;
+   flex-direction : column;
+   box-shadow : 0 5px 10px rgba(0,0,0,0.5);
+   transition : 0.3s ease-in-out;
+   border-radius : 15px;
+ }
+ .container1 .card:hover {
+   height : 320px;    
+ }
+ 
+ 
+ .container1 .card .image {
+   position : relative;
+   width : 290px;
+   height : 230px;
+   top : -40%;
+   left: 8px;
+   box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+   z-index : 1;
+ }
+ 
+ .container1 .card .image img {
+   max-width : 100%;
+   border-radius : 15px;
+ }
+ 
+ .container1 .card .content {
+   position : relative;
+   top : -140px;
+   padding : 10px 15px;
+   color : #111;
+   text-align : center;
+   visibility : hidden;
+   opacity : 0;
+   transition : 0.3s ease-in-out;
+     
+ }
+ 
+ .container1 .card:hover .content {
+    margin-top : 30px;
+    visibility : visible;
+    opacity : 1;
+    transition-delay: 0.3s;
+   
+ }
+ #pika{
+  /* height:85%;
+  width:200px; */
+  height:100%;
+  width:300px;
+ }
+ /* ------------------------------------------ */
+
+
+
+@media (max-width: 768px) {
+  #ima {
+      width: 200px;
+      height: 250px;
+  }
+
+  .navbar-nav .nav-link {
+      font-size: 1rem;
+      margin: 0 10px;
+  }
+  .navbar-brand img {
+      height: 100px;
+      margin-bottom:-30px;
+  }
+}
+
+footer{
+  background-color: #6c7d5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+table{
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:1%;
+}
+.logo-container {
+  background-color: #6c7d5a;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.logo img{
+  height:100px;
+}
+.line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 20px;
+}
+@media (max-width: 768px) {
+  .logo {
+      font-size: 1.5rem;
+  }
+
+  .line {
+      margin: 0 10px;
+  }
+}
+.next h6{
+  font-family: "Libre Baskerville", serif;
+  color:white;
+  font-size:55%;
+}
+.next p{
+  font-family: 'Absolute Beauty';
+  color: #fff;
+  font-size:60px;
+  text-align: center;
+}
+.next h7{
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-size:70%;
+}
+#link {
+  background-image: url('Ann-Travis-Botanical4-removebg-preview.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: #c7a4a4;
+  font-family: "Libre Baskerville", serif;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#link li {
+  margin: 10px 0;
+}
+
+#link li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#one{
+  margin-right:1px;
+}
+#lg{
+  height:130px;
+  width:130px;
+}
+#button{
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  color: #fff;
+  border: 1.5px solid #fff;
+  padding:12px;
+  font-size: small;
+}
+#button:hover{
+  background-color: #fff;
+  color: #6c7d5a;
+}
+@media (max-width: 576px) {
+  #ima {
+      width: 150px;
+      height: 200px;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  .navbar-brand img {
+      height: 100px;
+      margin-bottom:-20px;
+  }
+
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+      margin: 5px 0;
+  }
+}
+.blank {
+  height: 20px;
+}

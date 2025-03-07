@@ -1,0 +1,314 @@
+/* Portfolio.css */
+
+@font-face {
+  font-family: 'Absolute Beauty';
+  src: url('Absolute-Beauty-Script-Regular.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreBaskerville-Regular';
+  src: url('LibreBaskerville-Regular.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'theseasons';
+  src: url('Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'theseasons';
+}
+
+#back {
+    height: 70vw; 
+    width: 100%;
+    background-image: url("portfolio background.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#portfolio {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    color:#fff;
+}
+
+/* Add the rest of your CSS here... */
+
+  .navbar{
+    height:70px;
+    font-family: "Libre Baskerville", serif;
+  }
+  .navbar-brand img {
+    width: 80px;
+  }
+  .navbar-nav {
+    align-items: center;
+    }
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }
+  @media screen and (min-width: 768px) {
+    .navbar-brand img {
+      width: 100px;
+    }
+    .navbar-brand {
+      margin-right: 0;
+      padding: 0 1em;
+    }
+  } 
+  .s-5 {
+    margin-left:350px;
+  }
+  .img-fluid{
+     max-width: 100%;                                                                                      
+     height: auto;
+  }
+  @media only screen and (max-width: 480px) {
+  img-fluid {
+    width: 100%;
+  }
+  }
+  
+ 
+  
+  #mid {
+      text-align: center;
+      padding: 20px;
+      font-size: 18px;
+      line-height: 1.6;
+      background-color: white;
+  }
+  
+  
+  #gallery {
+      background-color: whitesmoke;
+      height: 1500px; 
+      padding: 20px;
+      width: 100%; 
+      box-sizing: border-box; 
+  }
+  #p{
+    color: black;
+  }
+  
+  #por{
+      width: 100%; 
+      border-spacing: 10px;
+      border-collapse: collapse; 
+  }
+  
+  td {
+      vertical-align: top;
+      text-align: center;
+      padding:10px;
+  }
+  
+  #k{
+      width: 100%;
+      height: 250px; 
+      object-fit: cover; 
+      max-width: 500px;
+      border-radius: 10px;
+  }
+  
+  #write {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      max-width: 400px; 
+      margin: 0 auto; 
+        font-family:'theseasons';
+  }
+  
+  #arrow img {
+      width: 40px;
+      height: 40px;
+  }
+  
+  footer{
+      background-color: #6c7d5a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    table{
+      margin-left:0;
+      margin-right:0;
+      margin-bottom:1%;
+    }
+    .logo-container {
+      background-color: #6c7d5a;
+      display: flex;
+      align-items: center;
+      color: #fff;
+    }
+    .logo img{
+      height:100px;
+    }
+    .line {
+      flex-grow: 1;
+      height: 2px;
+      background-color: #fff;
+      margin: 0 20px;
+    }
+    @media (max-width: 768px) {
+      .logo {
+          font-size: 1.5rem;
+      }
+    
+      .line {
+          margin: 0 10px;
+      }
+    }
+    .next h6{
+      font-family: "Libre Baskerville", serif;
+      color:white;
+      font-size:55%;
+    }
+    .next p{
+      font-family: 'Absolute Beauty';
+      color: #fff;
+      font-size:60px;
+      text-align: center;
+    }
+    .next h7{
+      color: #fff;
+      font-family: "Libre Baskerville", serif;
+      font-size:70%;
+    }
+    #link {
+      background-image: url('Ann-Travis-Botanical4-removebg-preview.png');
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      list-style: none;
+      text-decoration: none;
+      color: #c7a4a4;
+      font-family: "Libre Baskerville", serif;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    
+    #link li {
+      margin: 10px 0;
+    }
+    
+    #link li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #one{
+      margin-right:1px;
+    }
+    #lg{
+      height:130px;
+      width:130px;
+    }
+    #button{
+      text-decoration: none;
+      font-family: "Libre Baskerville", serif;
+      color: #fff;
+      border: 1.5px solid #fff;
+      padding:12px;
+      font-size: small;
+    }
+    #button:hover{
+      background-color: #fff;
+      color: #6c7d5a;
+    }
+  
+  @media (max-width: 768px) {
+      #back {
+          height: 50vw;
+      }
+  
+      #portfolio {
+          font-size: 40px;
+      }
+  
+      #mid {
+          font-size: 14px;
+      }
+  
+      table {
+          display: block;
+          width: 100%;
+          overflow-x: auto;
+      }
+  
+      td {
+          display: block;
+          width: 100%; 
+          margin-bottom: 20px;
+      }
+  
+      #k{
+          max-width: 100%; 
+          height: auto; 
+      }
+  
+      #write {
+          font-size: 16px;
+      }
+      #gallery {
+          height: 3500px; 
+      }
+  }
+  
+  @media (max-width: 576px) {
+      #back {
+          height: 40vw;
+      }
+  
+      #portfolio {
+          font-size: 35px;
+      }
+  
+      #mid {
+          font-size: 12px;
+      }
+  
+      table {
+          display: block;
+          width: 100%;
+          overflow-x: auto;
+      }
+  
+      td {
+          display: block;
+          width: 100%; 
+          margin-bottom: 20px;
+      }
+  
+      #k{
+          max-width: 100%; 
+          height: auto; 
+      }
+  
+      #write {
+          font-size: 14px;
+      }
+  
+      #arrow img {
+          width: 30px;
+          height: 30px;
+      }
+  }
+  

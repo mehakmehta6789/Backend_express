@@ -1,0 +1,393 @@
+@font-face {
+    font-family:'theseasons';
+    src: url('Fontspring-DEMO-theseasons-reg.otf');
+    src: local('Fontspring-DEMO-theseasons-reg'), local('Fontspring-DEMO-theseasons-reg'),
+        url('Fontspring-DEMO-theseasons-reg.eot?#iefix') format('embedded-opentype'),
+        url('Fontspring-DEMO-theseasons-reg.woff2') format('woff2'),
+        url('Fontspring-DEMO-theseasons-reg.woff') format('woff'),
+        url('Fontspring-DEMO-theseasons-reg.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+  font-family:'Aileron';
+  src: url('Aileron-Regular.otf');
+  font-style: normal;
+}
+@font-face {
+  font-family:'LibreBaskerville-Regular';
+  src: url('LibreBaskerville-Regular.ttf');
+  src: local('Aileron-Regular'), local('LibreBaskerville-Regular'),
+      url('LibreBaskerville-Regular.eot?#iefix') format('embedded-opentype'),
+      url('LibreBaskerville-Regular.woff2') format('woff2'),
+      url('LibreBaskerville-Regular.woff') format('woff'),
+      url('LibreBaskerville-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Absolute Beauty';
+  src: url('Absolute-Beauty-Script-Regular.otf') format('opentype');
+  font-style: normal;
+}
+body{
+  background-color: #fffffc;
+}
+main{
+    position: relative;
+    height: 90vh;
+    background-image: url('1-Calder-Clark-Wedding-Planner-Dulcie+Nelson-Montana-Destination-Event-Design.jpg');
+    background-position: 50% 94%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    height:70px;
+    font-family: "Libre Baskerville", serif;
+}
+.navbar-brand img {
+    width: 80px;
+  }
+  .navbar-nav {
+    align-items: center;
+    }
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }
+  @media screen and (min-width: 768px) {
+    .navbar-brand img {
+      width: 100px;
+    }
+    .navbar-brand {
+      margin-right: 0;
+      padding: 0 1em;
+    }
+  } 
+.s-5 {
+    margin-left:350px;
+  }
+.img-fluid{
+     max-width: 100%;                                                                                      
+     height: auto;
+}
+@media only screen and (max-width: 480px) {
+  img-fluid {
+    width: 100%;
+  }
+}
+/* ___________________________________ */
+.marq{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 12px;
+}
+.geek1 img{
+    height:40px;
+    padding:6px;
+}
+.geek2{
+    display: flex;
+    font-family: "Libre Baskerville", serif;
+  }
+.marq2 {
+    border-bottom: 1px solid black;
+    padding: 12px;
+}
+.geek2 img{
+    height: 30px;
+}
+#b{
+  font-family: "Libre Baskerville", serif;
+}
+/* ___________________________________ */
+.container1 {
+  position: relative;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-sizing: border-box;
+}
+
+.image-section img {
+  width:60%;
+  height:50%;
+  border-radius: 10px;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  background-color: #6c7d5a;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Libre Baskerville", serif;
+}
+
+.text-box h3 {
+  font-size:14px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.text-box p {
+  font-size:18px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button1 {
+  display: inline-block;
+  background-color: #6c7d5a;
+  color: #f2f1f1;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  border: 1px solid white;
+}
+
+.button1:hover {
+  background-color: #fff;
+  color: #6c7d5a;
+}
+
+@media (max-width: 768px) {
+  .image-section img {
+    width:100%;
+    height:40%;
+    border-radius: 10px;
+  }
+  .text-box {
+      position: static;
+      transform: none;
+      max-width: 100%;
+      margin: 20px auto;
+  }
+
+  .text-box p {
+      font-size: 20px;
+  }
+}
+
+/*_______________________________ */
+ .un{
+    position: relative;
+    height: 90vh;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('dub.jpg');
+    background-position: 50% 94%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    padding-top:200px;
+    background-attachment: fixed;
+ }
+ #a{
+  font-family: "Libre Baskerville", serif;
+ }
+ #hi{
+  font-family: "Libre Baskerville", serif;
+ }
+ #hi,#a{
+  color: #fff;
+  text-align: center;
+  margin-left: 120px;
+  margin-right:120px;
+ }
+ /* ______________________________________________________ */
+.booknine{
+  text-align: justify;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin-left:20px;
+  margin-right:20px;
+}
+.im2:hover {
+  transform: scale(1.05); 
+}
+.im2 img{
+  width:190px;
+  height:190px;
+  transition: transform .5s ;
+  transition-delay:1ms;
+  border-radius: 12px;
+}
+#smp{
+  background-color:#5A7D7C ;
+  color:white;
+  height:40px;
+  width:140px;
+  border-radius: 20px;
+  border:1px white;
+  margin-left:560px;
+  margin-top:20px
+}
+/* ______________________________________________________ */
+.loop {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Libre Baskerville", serif;
+}
+#myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: white; 
+  padding: 20px; 
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#tx {
+  font-size: 1.5rem;
+  margin: 0; 
+  font-style: italic;
+  font-family:'Absolute-Beauty-Script-Regular';
+}
+.overlay h2 {
+  font-size:3rem; 
+  margin: 0; 
+  line-height:1.6; 
+}
+/* ------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .logo2{
+    margin-top:-100px;
+  }
+
+  #hi{
+    margin-top:-100px;
+  }
+  .booknine{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .p3{
+      padding:4px;
+    }
+  .overlay{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .overlay h2 {
+    font-size:2.2rem; 
+    margin: 0; 
+    line-height:1.6;  
+  }
+}
+/* ------------------------------------------- */
+ footer{
+  background-color: #6c7d5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+table{
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:1%;
+}
+.logo-container {
+  background-color: #6c7d5a;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.logo img{
+  height:100px;
+}
+.line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 20px;
+}
+@media (max-width: 768px) {
+  .logo {
+      font-size: 1.5rem;
+  }
+
+  .line {
+      margin: 0 10px;
+  }
+}
+.next h6{
+  font-family: "Libre Baskerville", serif;
+  color:white;
+  font-size:55%;
+}
+.next p{
+  font-family: 'Absolute Beauty';
+  color: #fff;
+  font-size:60px;
+  text-align: center;
+}
+.next h7{
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-size:70%;
+}
+#link {
+  background-image: url('Ann-Travis-Botanical4-removebg-preview.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: #c7a4a4;
+  font-family: "Libre Baskerville", serif;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#link li {
+  margin: 10px 0;
+}
+
+#link li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#one{
+  margin-right:1px;
+}
+#lg{
+  height:130px;
+  width:130px;
+}
+#button{
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  color: #fff;
+  border: 1.5px solid #fff;
+  padding:12px;
+  font-size: small;
+}
+#button:hover{
+  background-color: #fff;
+  color: #6c7d5a;
+}
+/* ..................................... */

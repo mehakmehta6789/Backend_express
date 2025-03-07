@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;500;600&display=swap');
+
+@font-face {
+  font-family:'theseasons';
+  src: url('Fontspring-DEMO-theseasons-reg.otf');
+  src: local('Fontspring-DEMO-theseasons-reg'), local('Fontspring-DEMO-theseasons-reg'),
+      url('Fontspring-DEMO-theseasons-reg.eot?#iefix') format('embedded-opentype'),
+      url('Fontspring-DEMO-theseasons-reg.woff2') format('woff2'),
+      url('Fontspring-DEMO-theseasons-reg.woff') format('woff'),
+      url('Fontspring-DEMO-theseasons-reg.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+font-family:'Aileron';
+src: url('Aileron-Regular.otf');
+font-style: normal;
+}
+@font-face {
+  font-family: 'Absolute Beauty';
+  src: url('Absolute-Beauty-Script-Regular.otf') format('opentype');
+  font-style: normal;
+}
+@font-face {
+font-family:'LibreBaskerville-Regular';
+src: url('LibreBaskerville-Regular.ttf');
+src: local('Aileron-Regular'), local('LibreBaskerville-Regular'),
+    url('LibreBaskerville-Regular.eot?#iefix') format('embedded-opentype'),
+    url('LibreBaskerville-Regular.woff2') format('woff2'),
+    url('LibreBaskerville-Regular.woff') format('woff'),
+    url('LibreBaskerville-Regular.ttf') format('truetype');
+font-style: normal;
+}
+body {
+  margin: 0;
+  font-family:'LibreBaskerville-Regular';
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #6c7d5a;
+  padding: 20px;
+  color: #fff;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  margin-left: 250px; 
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+header h1{
+  font-family:'LibreBaskerville-Regular';
+  font-size:30px;
+  font-weight:bolder;
+}
+h1 {
+  font-size: 32px;
+  font-family: 'Baskervville SC', serif;
+}
+
+/* Full Width for Sections */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-section, .event-table, .conceptualize-event {
+  width: 100%;
+}
+
+.calendar-section h2, 
+.event-table h2, 
+.conceptualize-event h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Event Table Styles */
+.event-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.event-table th, .event-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.event-table th {
+  background-color: #6c7d5a;
+  color: white;
+}
+
+/* Conceptualize Event Form */
+form {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form select, form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input[type="checkbox"] {
+  width: auto;
+}
+
+form .inline {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6c7d5a;
+}
+
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Wrapper adjustments */
+.wrapper {
+  width: 100%; /* Make the wrapper full width */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  padding: 20px; /* Add padding to give space inside the wrapper */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Adjust the header within the wrapper */
+.wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Adjust the icons and current date display */
+header .icons {
+  display: flex;
+}
+
+header .icons span {
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+
+/* Pseudo-elements for chevrons */
+#prev::before {
+  content: 'chevron_left'; 
+  font-family: 'Material Symbols Outlined';
+}
+
+#next::before {
+  content: 'chevron_right'; 
+  font-family: 'Material Symbols Outlined';
+}
+
+header .icons span:last-child {
+  margin-right: -10px;
+}
+
+header .icons span:hover {
+  background: #f2f2f2;
+}
+
+header .current-date {
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+
+/* Calendar section */
+.calendar {
+  padding: 20px 0;
+}
+
+.calendar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+.calendar .days {
+  margin-bottom: 20px;
+}
+
+.calendar li {
+  color: #333;
+  width: calc(100% / 7); /* Ensures equal width for days */
+  font-size: 1.07rem;
+}
+
+.calendar .weeks li {
+  font-weight: 500;
+  cursor: default;
+}
+
+.calendar .days li {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+
+.days li.inactive {
+  color: #aaa;
+}
+
+.days li.active {
+  color: #fff;
+}
+
+.days li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.days li.active::before {
+  background: #6c7d5a;
+}
+
+.days li:not(.active):hover::before {
+  background: #f2f2f2;
+}
+
+#submit{
+  background-color: #6c7d5a;
+}
+
+#logo{
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+}

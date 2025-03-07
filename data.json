@@ -1,0 +1,398 @@
+[
+  {
+    "eventPurpose": "Other",
+    "guests": "100",
+    "date": "2025-03-12",
+    "budget": "15000",
+    "theme": "Casual",
+    "venue": "Outdoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "DJ"
+    ],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "1000",
+    "date": "2025-03-19",
+    "budget": "100000",
+    "theme": "Casual",
+    "venue": "Hotel",
+    "foodBeverage": "Buffet",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Flowers"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "100",
+    "date": "2025-03-21",
+    "budget": "15000",
+    "theme": "Rustic",
+    "venue": "Hotel",
+    "foodBeverage": "Buffet",
+    "entertainment": [
+      "DJ"
+    ],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "1233",
+    "date": "2025-03-31",
+    "budget": "100000",
+    "theme": "Rustic",
+    "venue": "Outdoor",
+    "foodBeverage": "Buffet",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": ""
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-03-12",
+    "budget": "100000",
+    "theme": "Casual",
+    "venue": "Restaurant",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "DJ"
+    ],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "500",
+    "date": "2025-03-28",
+    "budget": "10000",
+    "theme": "Casual",
+    "venue": "Outdoor",
+    "foodBeverage": "Buffet",
+    "entertainment": [
+      "DJ"
+    ],
+    "decorations": "Balloons"
+  },
+  {
+    "eventPurpose": "Corporate Event",
+    "guests": "50",
+    "date": "2025-04-03",
+    "budget": "10000",
+    "theme": "Rustic",
+    "venue": "Indoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Corporate Event",
+    "guests": "50",
+    "date": "2025-04-03",
+    "budget": "10000",
+    "theme": "Rustic",
+    "venue": "Indoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Corporate Event",
+    "guests": "50",
+    "date": "2025-04-03",
+    "budget": "10000",
+    "theme": "Casual",
+    "venue": "Indoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "1000",
+    "date": "2025-03-20",
+    "budget": "15000",
+    "theme": "Casual",
+    "venue": "Hotel",
+    "foodBeverage": "",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": ""
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-04-05",
+    "budget": "15000",
+    "theme": "Rustic",
+    "venue": "Hotel",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Other",
+    "guests": "10",
+    "date": "2025-03-29",
+    "budget": "2000",
+    "theme": "Rustic",
+    "venue": "Outdoor",
+    "foodBeverage": "Hors D'oeuvres",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "200",
+    "date": "2025-03-27",
+    "budget": "15000",
+    "theme": "Casual",
+    "venue": "Outdoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-03-20",
+    "budget": "100",
+    "theme": "Formal",
+    "venue": "Hotel",
+    "foodBeverage": "",
+    "entertainment": [],
+    "decorations": ""
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "100",
+    "date": "2025-03-21",
+    "budget": "10000",
+    "theme": "Rustic",
+    "venue": "Hotel",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [],
+    "decorations": "Balloons"
+  },
+  {
+    "eventPurpose": "Other",
+    "guests": "100",
+    "date": "2025-03-12",
+    "budget": "100000",
+    "theme": "Casual",
+    "venue": "Indoor",
+    "foodBeverage": "",
+    "entertainment": [],
+    "decorations": ""
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-04-01",
+    "budget": "150000",
+    "theme": "Formal",
+    "venue": "Indoor",
+    "foodBeverage": "Buffet",
+    "entertainment": [],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-03-18",
+    "budget": "150000",
+    "theme": "Formal",
+    "venue": "Indoor",
+    "foodBeverage": "Hors D'oeuvres",
+    "entertainment": [],
+    "decorations": ""
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-03-18",
+    "budget": "150000",
+    "theme": "Formal",
+    "venue": "Indoor",
+    "foodBeverage": "Hors D'oeuvres",
+    "entertainment": [],
+    "decorations": "Lighting"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-03-20",
+    "budget": "10000",
+    "theme": "Formal",
+    "venue": "Indoor",
+    "foodBeverage": "",
+    "entertainment": [],
+    "decorations": ""
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "1000",
+    "date": "2025-03-22",
+    "budget": "1000",
+    "theme": "",
+    "venue": "",
+    "foodBeverage": "",
+    "entertainment": [],
+    "decorations": ""
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "50",
+    "date": "2025-03-19",
+    "budget": "150000",
+    "theme": "Rustic",
+    "venue": "Outdoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Flowers"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "54",
+    "date": "2025-03-22",
+    "budget": "150000",
+    "theme": "Casual",
+    "venue": "Indoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Balloons"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "59",
+    "date": "2025-03-21",
+    "budget": "54",
+    "theme": "Casual",
+    "venue": "Indoor",
+    "foodBeverage": "Buffet",
+    "entertainment": [
+      "Photo Booth"
+    ],
+    "decorations": "Balloons"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "97",
+    "date": "2025-03-29",
+    "budget": "150000",
+    "theme": "",
+    "venue": "",
+    "foodBeverage": "",
+    "entertainment": [],
+    "decorations": ""
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "32",
+    "date": "2025-03-21",
+    "budget": "32",
+    "theme": "Rustic",
+    "venue": "Indoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Photo Booth"
+    ],
+    "decorations": "Flowers"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-03-29",
+    "budget": "540000",
+    "theme": "Casual",
+    "venue": "Indoor",
+    "foodBeverage": "Buffet",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Balloons"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "100",
+    "date": "2025-03-12",
+    "budget": "100000",
+    "theme": "Casual",
+    "venue": "Hotel",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Photo Booth"
+    ],
+    "decorations": "Balloons"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "100",
+    "date": "2025-03-11",
+    "budget": "1000",
+    "theme": "Rustic",
+    "venue": "Indoor",
+    "foodBeverage": "Hors D'oeuvres",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Balloons"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "54",
+    "date": "2025-03-19",
+    "budget": "54",
+    "theme": "Rustic",
+    "venue": "Indoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Flowers"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "54",
+    "date": "2025-03-20",
+    "budget": "54",
+    "theme": "Casual",
+    "venue": "Indoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Balloons"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "5",
+    "date": "2025-03-12",
+    "budget": "43",
+    "theme": "Formal",
+    "venue": "Outdoor",
+    "foodBeverage": "Sit-Down",
+    "entertainment": [
+      "Live Band"
+    ],
+    "decorations": "Flowers"
+  }
+]

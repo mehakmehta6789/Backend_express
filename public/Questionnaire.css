@@ -1,0 +1,257 @@
+@font-face {
+  font-family:'theseasons';
+  src: url('Fontspring-DEMO-theseasons-reg.otf');
+  src: local('Fontspring-DEMO-theseasons-reg'), local('Fontspring-DEMO-theseasons-reg'),
+      url('Fontspring-DEMO-theseasons-reg.eot?#iefix') format('embedded-opentype'),
+      url('Fontspring-DEMO-theseasons-reg.woff2') format('woff2'),
+      url('Fontspring-DEMO-theseasons-reg.woff') format('woff'),
+      url('Fontspring-DEMO-theseasons-reg.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+font-family:'Aileron';
+src: url('Aileron-Regular.otf');
+font-style: normal;
+}
+@font-face {
+font-family:'LibreBaskerville-Regular';
+src: url('LibreBaskerville-Regular.ttf');
+src: local('Aileron-Regular'), local('LibreBaskerville-Regular'),
+    url('LibreBaskerville-Regular.eot?#iefix') format('embedded-opentype'),
+    url('LibreBaskerville-Regular.woff2') format('woff2'),
+    url('LibreBaskerville-Regular.woff') format('woff'),
+    url('LibreBaskerville-Regular.ttf') format('truetype');
+font-style: normal;
+}
+@font-face {
+font-family: 'Absolute Beauty';
+src: url('Absolute-Beauty-Script-Regular.otf') format('opentype');
+font-style: normal;
+}
+body{
+background-color: #fffffc;
+}
+
+.navbar{
+  height:70px;
+  font-family: "Libre Baskerville", serif;
+}
+.navbar-brand img {
+  width: 80px;
+}
+.navbar-nav {
+  align-items: center;
+  }
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+} 
+.s-5 {
+  margin-left:350px;
+}
+.img-fluid{
+   max-width: 100%;                                                                                      
+   height: auto;
+}
+@media only screen and (max-width: 480px) {
+img-fluid {
+  width: 100%;
+}
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-step {
+    display: none;
+  }
+  
+  .form-step.active {
+    display: block;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #6c7d5a;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6c7d5a;
+  }
+  
+  button.prev-btn {
+    background-color: #6c7d5a;
+  }
+  
+  button.prev-btn:hover {
+    background-color: #6c7d5a;
+  }
+/* Modal styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close-btn:hover,
+  .close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }  
+  .check img{
+    height:40px;
+    width:40px;
+  }
+  
+/* ------------------------------------------- */
+ footer{
+  background-color: #6c7d5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+table{
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:1%;
+}
+.logo-container {
+  background-color: #6c7d5a;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.logo img{
+  height:100px;
+}
+.line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 20px;
+}
+@media (max-width: 768px) {
+  .logo {
+      font-size: 1.5rem;
+  }
+
+  .line {
+      margin: 0 10px;
+  }
+}
+.next h6{
+  font-family: "Libre Baskerville", serif;
+  color:white;
+  font-size:55%;
+}
+.next p{
+  font-family: 'Absolute Beauty';
+  color: #fff;
+  font-size:60px;
+  text-align: center;
+}
+.next h7{
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-size:70%;
+}
+#link {
+  background-image: url('Ann-Travis-Botanical4-removebg-preview.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: #c7a4a4;
+  font-family: "Libre Baskerville", serif;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#link li {
+  margin: 10px 0;
+}
+
+#link li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#one{
+  margin-right:1px;
+}
+#lg{
+  height:130px;
+  width:130px;
+}
+#button{
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  color: #fff;
+  border: 1.5px solid #fff;
+  padding:12px;
+  font-size: small;
+}
+#button:hover{
+  background-color: #fff;
+  color: #6c7d5a;
+}
+/* ..................................... */

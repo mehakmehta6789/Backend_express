@@ -1,0 +1,97 @@
+@media screen and (max-width:768px){
+    body{
+        padding:0px;
+        margin:0px;
+        background-color: #62754c;
+    }
+    .blank,
+    .other {
+      width: 768px;
+      min-height: 40vh;
+      background-color: var(--color);
+      background-image: url("wed.jpg");
+      background-size: cover;
+    
+    
+    }
+    
+    #mid{
+        height:250px;
+        text-align: center;
+        background-color: white;
+    width:768px;
+    }
+    .container {
+        text-align: center;
+        color: #62754c;
+        width:768px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url("receptionmain.jpg");
+        background-size: cover;
+        background-position: center;
+        
+      /*  this is where the magic happens:  */
+        background-attachment: fixed;
+      }
+      h1 {
+          font-weight: 700;
+          font-size: 3rem;
+          color:white;
+        }
+}
+
+
+@media screen and (max-width:475px){
+  body{
+      padding:0px;
+      margin:0px;
+      background-color: #62754c;
+  }
+  .navbar{
+    height:70px;
+    font-family: "Libre Baskerville", serif;
+  width:475px;
+  }
+  .blank,
+  .other {
+    width: 475px;
+    min-height: 40vh;
+    background-color: var(--color);
+    background-image: url("wed.jpg");
+    background-size: cover;
+  
+  
+  }
+  
+  #mid{
+      height:250px;
+      text-align: center;
+      background-color: white;
+  width:475px;
+  }
+  .container {
+      text-align: center;
+      color: #62754c;
+      width:475px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: url("receptionmain.jpg");
+      background-size: cover;
+      background-position: center;
+      
+    /*  this is where the magic happens:  */
+      background-attachment: fixed;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        color:white;
+      }
+}

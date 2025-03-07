@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'Absolute Beauty';
+    src: url('Absolute-Beauty-Script-Regular.otf') format('opentype');
+    font-style: normal;
+  }
+  @font-face {
+    font-family:'LibreBaskerville-Regular';
+    src: url('LibreBaskerville-Regular.ttf');
+    font-style: normal;
+  }
+  @font-face {
+    font-family:'theseasons';
+    src: url('Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+    font-style: normal;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'theseasons';
+}
+
+.navbar {
+    height: 70px;
+    background-color: #6c7d5a;
+}
+
+.navbar-brand img {
+    width: 80px;
+    margin-top: -11px;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+}
+
+
+@media screen and (min-width: 768px) {
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+        padding: 0 1em;
+    }
+}
+
+/* #serve {
+    width: 100%;
+    height: 700px;
+    object-fit: cover; 
+} */
+.un{
+    
+    height: 90vh;
+    background-image:url('services main.jpg');
+    background-position: 50% 94%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    padding-top:200px;
+    background-attachment: fixed;
+ }
+
+#m {
+    text-align: center;
+    padding: 20px;
+}
+
+#S {
+    font-size: 1.5rem;
+}
+
+#p {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+
+#grey {
+    background-color: rgb(234, 228, 228);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#img {
+    margin: 20px;
+    margin-top:-140px;
+    height: auto;
+    width: 100%;
+    max-width: 450px; 
+    
+}
+
+#written {
+    font-size: 2rem;
+}
+
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:'LibreBaskerville-Regular';
+    font-size: small;
+}
+
+#nation {
+    text-align: center;
+    padding: 20px;
+}
+
+#celeb {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#count {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    line-height: 1.3;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+#count li {
+    margin: 5px 15px;
+}
+footer{
+    background-color: #6c7d5a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  table{
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:1%;
+  }
+  .logo-container {
+    background-color: #6c7d5a;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  .logo img{
+    height:100px;
+  }
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 20px;
+  }
+  @media (max-width: 768px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+  
+    .line {
+        margin: 0 10px;
+    }
+  }
+  .next h6{
+    font-family: "Libre Baskerville", serif;
+    color:white;
+    font-size:55%;
+  }
+  .next p{
+    font-family: 'Absolute Beauty';
+    color: #fff;
+    font-size:60px;
+    text-align: center;
+  }
+  .next h7{
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+    font-size:70%;
+  }
+  #link {
+    background-image: url('Ann-Travis-Botanical4-removebg-preview.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #c7a4a4;
+    font-family: "Libre Baskerville", serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  #link li {
+    margin: 10px 0;
+  }
+  
+  #link li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #one{
+    margin-right:1px;
+  }
+  #lg{
+    height:130px;
+    width:130px;
+  }
+  #button{
+    text-decoration: none;
+    font-family: "Libre Baskerville", serif;
+    color: #fff;
+    border: 1.5px solid #fff;
+    padding:12px;
+    font-size: small;
+  }
+  #button:hover{
+    background-color: #fff;
+    color: #6c7d5a;
+  }
+
+@media (max-width: 768px) {
+    .navbar .navbar-nav .nav-link {
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    #serve {
+        height: 400px; 
+    }
+
+    #S {
+        font-size: 1.25rem;
+    }
+
+    #p {
+        font-size: 1.5rem;
+    }
+
+    #img {
+        width: 100%;
+        max-width: 100%;
+        height: 900px;
+        margin-top:-140px;
+    }
+
+    #written {
+        font-size: 1.5rem;
+    }
+
+    #count {
+        font-size: 0.875rem;
+    }
+
+    #count li {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .navbar-nav .nav-link {
+        font-size: 0.875em;
+        padding: 0.5em;
+    }
+
+    #serve {
+        height: 300px; 
+    }
+
+    #S {
+        font-size: 1rem;
+    }
+
+    #p {
+        font-size: 1.25rem;
+    }
+
+    #img {
+        width: 100%;
+        max-width: 100%;
+        height: 400px;
+        margin-top:-140px;
+    }
+
+    #written {
+        font-size: 1rem;
+    }
+
+    #count {
+        font-size: 0.75rem;
+    }
+
+    #count li {
+        margin: 5px 10px;
+    }
+}
+@media (max-width: 425px) {
+
+    #img {
+        width: 300px;
+        max-width: 100%;
+        margin-top:-1400px;
+        height:400px;
+    }
+    #written {
+        font-size: .5rem;
+    }
+
+    #count {
+        font-size: 0.75rem;
+    }
+
+    #count li {
+        margin: 5px 10px;
+    }
+}
