@@ -1,4 +1,4 @@
-# **Cosmic Occasions - EVENT MANAGEMENT APP**
+# **Cosmic Occasions - Event Management App**
 
 Cosmic Occasions is a comprehensive event management platform that streamlines the entire planning process. It provides powerful tools to handle every aspect of an event, including:
 * Explore and select the ideal event location.
