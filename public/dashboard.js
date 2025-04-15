@@ -18,22 +18,22 @@ document.getElementById('conceptualizeForm').addEventListener('submit', async fu
 
     let decorations = document.getElementById('decorations').value;
 
-    // Check if all fields are filled
-    if (!eventPurpose || !guests || !date || !budget || !theme || !venue || !foodBeverage || !decorations || entertainment.length === 0) {
-        alert('All fields are required. Please fill out every field before submitting.');
-        return; // Prevent form submission
-    }
+    // // Check if all fields are filled
+    // if (!eventPurpose || !guests || !date || !budget || !theme || !venue || !foodBeverage || !decorations || entertainment.length === 0) {
+    //     alert('All fields are required. Please fill out every field before submitting.');
+    //     return; // Prevent form submission
+    // }
 
-    // Check if guests and budget are valid
-    if (isNaN(guests) || guests <= 0) {
-        alert('Invalid number of guests. Please enter a positive number.');
-        return; // Prevent form submission
-    }
+    // // Check if guests and budget are valid
+    // if (isNaN(guests) || guests <= 0) {
+    //     alert('Invalid number of guests. Please enter a positive number.');
+    //     return; // Prevent form submission
+    // }
 
-    if (isNaN(parseFloat(budget)) || parseFloat(budget) <= 0) {
-        alert('Invalid budget. Please enter a valid number.');
-        return; // Prevent form submission
-    }
+    // if (isNaN(parseFloat(budget)) || parseFloat(budget) <= 0) {
+    //     alert('Invalid budget. Please enter a valid number.');
+    //     return; // Prevent form submission
+    // }
 
     // Create JSON object for backend
     let eventData = {

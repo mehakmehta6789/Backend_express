@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "eventPurpose": "Birthday",
+    "guests": "1200",
+    "date": "2025-04-22",
+    "budget": "15000"
+  },
+  {
+    "eventPurpose": "Birthday",
+    "guests": "1200",
+    "date": "2025-04-22",
+    "budget": "15000"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "1200",
+    "date": "2025-04-26",
+    "budget": "10000"
+  },
+  {
+    "eventPurpose": "Wedding",
+    "guests": "1500",
+    "date": "2025-05-01",
+    "budget": "100000",
+    "theme": "",
+    "venue": "",
+    "foodBeverage": "",
+    "decorations": ""
+  }
+]
